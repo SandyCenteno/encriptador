@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header>
+            <img src="imagenes/logo.png">
+        </header>
+
+        <main>
+
+            <section>
+                <textarea type="text" class="texto-encriptado" id="texto_encriptado" cols="40" rows="7" placeholder="Ingrese el texto aqui"></textarea>
+                <h6> <img src="imagenes/vector.png"> Solo letras minúsculas y sin acentos </h6>
+                <div>
+                    <button id="btnEncriptar"> Encriptar! </button>
+                    <button id="btnDesecriptar"> Desencriptar! </button>
+                </div>
+            </section>
+
+            <section>
+                <div id="div-sin-resultados">
+                    <img src="imagenes/munieco.png" width="200">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <h6>Ingresa el texto que desees encriptar o desencriptar.</h6> 
+                </div>
+                <div id="div-con-resultados">
+                    <textarea type="text" class="texto-resultado" id="texto_resultado" cols="18" rows="8"></textarea>
+                    <div class="div-copiar">
+                        <button id="btnCopiar"> Copiar </button>
+                        <span id="listo_copiado"> Listo, Copiado! </span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
