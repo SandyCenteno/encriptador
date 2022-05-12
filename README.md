@@ -14,7 +14,7 @@ Clonar proyecto desde zip o desde el link
 ## Built With
 
 * Html5
-* Javascrip
+* Javascript
 * Css3
 
 ## Authors
